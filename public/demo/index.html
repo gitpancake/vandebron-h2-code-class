@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Web App</title>
+
+    <!-- This resets browser styling, to avoid differences between Google Chrome and Safari for example -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Web App</h1>
+    </header>
+
+    <main>
+      <h2>Blog Articles</h2>
+
+      <article>
+        <h3>ACM start onderzoek naar misleidende duurzaamheidsclaims</h3>
+        <p>
+          Aantal likes: <span id="likesCounterArticleOne">0</span>.
+          <button onClick="likeArticleOne()">Like</button>
+        </p>
+        <img src="blog-image-1.jpg" alt="Man jumping happily on dunes" />
+        <p>
+          Goed nieuws voor de energie-, zuivel- en kledingsector! De Autoriteit Consument & Markt
+          (ACM) start onderzoeken naar misleidende duurzaamheidsclaims binnen deze sectoren. Als
+          bedrijven hun consumenten misleiden, kan de ACM hen vanaf half juni een boete opleggen.
+        </p>
+        <a
+          href="https://vandebron.nl/blog/acm-start-onderzoek-naar-misleidende-duurzaamheidsclaims"
+        >
+          Lees verder
+        </a>
+      </article>
+
+      <article>
+        <h3>Waarom de zomer hét moment is voor isoleren</h3>
+        <p>
+          Aantal likes: <span id="likesCounterArticleTwo">0</span>.
+          <button onClick="likeArticleTwo()">Like</button>
+        </p>
+        <img src="blog-image-2.jpg" alt="Woman sitting against tree in sun" />
+        <p>
+          Goed nieuws voor de energie-, zuivel- en kledingsector! De Autoriteit Consument & Markt
+          (ACM) start onderzoeken naar misleidende duurzaamheidsclaims binnen deze sectoren. Als
+          bedrijven hun consumenten misleiden, kan de ACM hen vanaf half juni een boete opleggen.
+        </p>
+        <a href="https://vandebron.nl/blog/waarom-de-zomer-het-moment-is-voor-isoleren">
+          Lees verder
+        </a>
+      </article>
+    </main>
+
+    <footer>Copyright My Web App</footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
