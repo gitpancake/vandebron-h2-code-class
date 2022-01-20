@@ -744,10 +744,10 @@ main { /* Or any other tag */
 
 				<Code language="javascript">
 					{`
-var name = "Koen";
+var name = "Henry";
 
-if (name === "Koen") {
-  alert("Hello Koen!");
+if (name === "Henry") {
+  alert("Hello Henry!");
 } else {
   alert("Hello stranger!");
 }
